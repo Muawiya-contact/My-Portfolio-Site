@@ -1,0 +1,184 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+/* Navbar */
+nav {
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav .logo {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav .nav-links {
+  list-style: none;
+  float: right;
+}
+
+nav .nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+nav .nav-links a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* Hero Section */
+header {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+  background-color: #00b894;
+}
+
+.hero-text {
+  position: relative;
+  padding-top: 15rem;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #00b894;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.cta-button:hover {
+  background-color: #098e72;
+  color: white;
+}
+
+/* About Me Section */
+#about .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #00b894;
+}
+
+#about p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  color: #2c2c2c;
+}
+
+/* Skills Section */
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.skill-item {
+  background-color: #00b894;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Projects Section */
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.project-item {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.project-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.project-item p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Contact Form */
+form input, form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #00b894;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #098e72;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
